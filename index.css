@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2.5px) saturate(65%);
+    user-select: none;
+}
+
+header {
+    margin-bottom: 1.5em;
+}
+
+header > img {
+    width: 8em;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-bottom: 0.5em;
+    box-shadow: 4px 2px 21px -7px black;
+}
+
+header > h1 {
+    font-size: 1em;
+    padding: 0.2em 0.5em;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    border: 2.75px solid white;
+    box-shadow: 4px 2px 21px -7px black;
+}
+
+ul {
+    width: 85%;
+    list-style: none;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    padding: 1.2em;
+    margin: 0.55em 0;
+    box-shadow: 4px 2px 21px -7px black;
+    backdrop-filter: blur(15px);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+}
