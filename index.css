@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     backdrop-filter: blur(2.5px) saturate(65%);
     user-select: none;
+    overflow: hidden;
 }
 
 header {
