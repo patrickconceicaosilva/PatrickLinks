@@ -76,6 +76,34 @@ a {
     color: black;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 1.5em;
+}
+
+footer > button {
+    width: 5em;
+    height: 5em;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 4px 2px 12px -7px black;
+    backdrop-filter: blur(15px);
+    transition: 0.2s ease;
+}
+
+footer > button.pause {
+    transform: rotate(180deg);
+    box-shadow: -4px -2px 12px -7px black;
+}
+
 /* Estilo para telas maiores */
 @media (min-width: 768px) {
     ul {
