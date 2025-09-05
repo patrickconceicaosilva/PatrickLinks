@@ -120,3 +120,26 @@ footer > button.pause {
         width: 45%;
     }
 }
+
+@media (max-height: 660px) {
+    footer {
+        padding-bottom: 1em;
+    }
+}
+
+@media (max-height: 638px) {
+    #playPause {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-height: 590px) {
+    #playPause {
+        position: hidden;
+        visibility: hidden;
+    }
+}
